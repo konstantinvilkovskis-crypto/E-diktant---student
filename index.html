@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-diktant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>E-diktant</h1>
+
+
+<div class="audio-section">
+
+
+
+<audio id="player" controls></audio>
+
+<div class="controls">
+<button onclick="back()">-5s</button>
+<button onclick="repeat()">repeat</button>
+<button onclick="slow()">0.5x</button>
+<button onclick="normal()">1x</button>
+<button onclick="fast()">1.5x</button>
+</div>
+
+</div>
+
+
+<div class="dictation">
+
+
+<textarea id="userText"></textarea>
+
+<button id="checkBtn">Check</button>
+
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
